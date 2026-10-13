@@ -27,6 +27,7 @@ The pipeline fits a physics-structured model of hourly primary return temperatur
 │   ├── s09d_energy_translation.py    # reference return temperature, excess circulated volume
 │   ├── s09e_data_efficiency.py       # data efficiency with the selected (extended) model
 │   ├── s10_revision_analyses.py      # baselines, prior sensitivity, diagnostics, complaint models
+│   ├── s12_model_comparison.py       # input ablation and gradient-boosting benchmark
 │   └── s11_paper_figures_tables.py   # publication figures (PDF/PNG) and tables (LaTeX/CSV)
 ├── notebooks/
 │   └── run_in_colab.ipynb      # one-click run on Google Colab
@@ -55,6 +56,7 @@ Download PreDist version 2 from Zenodo (https://doi.org/10.5281/zenodo.17522254,
 ```bash
 python run_all.py                 # full pipeline
 python run_all.py --figures-only  # re-draw figures and tables from existing outputs
+python run_all.py --model-comparison-only   # only the stages needed for the model comparison (s12)
 ```
 
 Paths can be changed without editing code:
@@ -94,6 +96,7 @@ All result files are written to `outputs/`; figures and tables for the paper to 
 | Figure S1, Table S1 | `paper_figures/FigS1_screening_transfer`, `paper_tables/TS1_screening_fair` |
 | Figure S2 | `figures/FigS2_residual_diagnostics` |
 | Table S2 | `paper_tables/T5_fault_excess_by_label`, `hm10_R8_labels_multiple_testing.csv` |
+| Model comparison (ablation, gradient boosting) | `hm12_model_comparison_summary.csv`, `paper_tables/T10_model_comparison` |
 | Tables S3–S6 | `hm10_R2_*`, `hm10_R1_*`, `hm10_R3_*` + `hm10_R6_*`, `hm10_R5_*` |
 
 Random seeds are fixed in every stage, so repeated runs give identical results for the same data and package versions.

@@ -17,7 +17,8 @@ import numpy as np, pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import wilcoxon, mannwhitneyu, spearmanr, binomtest
 
-RUN_RHO_SENS = True
+import os
+RUN_RHO_SENS = os.environ.get('PREDIST_RHO_SENS', '1') == '1'   # autocorrelation-cap sensitivity (slow)
 COMFORT = {'no heat', 'not enough heat', 'no dhw'}
 rng9c = np.random.default_rng(23)
 BLUE, ORANGE, AQUA, GREY = '#2a78d6', '#eb6834', '#1baf7a', '#8a8a85'
