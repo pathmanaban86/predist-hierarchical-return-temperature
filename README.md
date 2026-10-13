@@ -89,14 +89,14 @@ All result files are written to `outputs/`; figures and tables for the paper to 
 | Table 3 | `paper_tables/T2_coefficients` |
 | Table 4 | `paper_tables/T9_robustness`, `hm10_R5_prior_sensitivity_7d.csv`, `hm10_R7_manufacturer_priors.csv` |
 | Table 5 | `hm10_R4_data_efficiency_extended.csv` |
-| Table 6 | `paper_tables/T4_fault_excess`, `hm10_R8_fault_signature_stats.csv` |
-| Tables 7–8 | `paper_tables/T8_energy`, `paper_tables/T7_top_contributors` |
+| Table 6 | `hm12_model_comparison_summary.csv`, `paper_tables/T10_model_comparison` |
+| Table 7 | `paper_tables/T4_fault_excess`, `hm10_R8_fault_signature_stats.csv` |
+| Tables 8–9 | `paper_tables/T8_energy`, `paper_tables/T7_top_contributors` |
 | Complaint statistics | `paper_tables/T6_correlations`, `hm10_R9_*.csv` |
 | Excess-volume statistics | `hm9d_energy_per_substation.csv`, `hm10_R10_*.csv` |
 | Figure S1, Table S1 | `paper_figures/FigS1_screening_transfer`, `paper_tables/TS1_screening_fair` |
 | Figure S2 | `figures/FigS2_residual_diagnostics` |
 | Table S2 | `paper_tables/T5_fault_excess_by_label`, `hm10_R8_labels_multiple_testing.csv` |
-| Model comparison (ablation, gradient boosting) | `hm12_model_comparison_summary.csv`, `paper_tables/T10_model_comparison` |
 | Tables S3–S6 | `hm10_R2_*`, `hm10_R1_*`, `hm10_R3_*` + `hm10_R6_*`, `hm10_R5_*` |
 
 Random seeds are fixed in every stage, so repeated runs give identical results for the same data and package versions.
