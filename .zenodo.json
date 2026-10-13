@@ -1,0 +1,16 @@
+{
+  "title": "Hierarchical physics-structured modelling of district heating substation return temperatures (analysis code)",
+  "upload_type": "software",
+  "description": "Analysis code for the paper 'Hierarchical physics-structured modelling of district heating substation return temperatures: data efficiency, fault signatures and the comfort-efficiency gap' (Proc IMechE Part A, submitted). Uses the public PreDist dataset (doi:10.5281/zenodo.17522254).",
+  "creators": [
+    {
+      "name": "Pugazhendi, Pathmanaban",
+      "affiliation": "Easwari Engineering College (SRM Group), Chennai, India"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["district heating", "substation", "return temperature", "hierarchical model", "empirical Bayes", "fault detection"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.17522254", "relation": "references", "resource_type": "dataset"}
+  ]
+}

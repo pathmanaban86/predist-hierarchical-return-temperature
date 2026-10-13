@@ -1,0 +1,7 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.7
+scikit-learn>=1.2
+statsmodels>=0.14
+pyarrow>=12        # optional: faster hourly cache (falls back to pickle if missing)

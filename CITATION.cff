@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Hierarchical physics-structured modelling of district heating substation return temperatures (analysis code)"
+version: 1.0.0
+date-released: 2026-10-13
+license: MIT
+repository-code: "https://github.com/pathmanaban86/predist-hierarchical-return-temperature"
+authors:
+  - family-names: Pugazhendi
+    given-names: Pathmanaban
+    affiliation: "Department of Automobile Engineering, Easwari Engineering College (SRM Group), Chennai, India"
+    email: princepathu@gmail.com
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # add your ORCID and remove the '#'
+keywords:
+  - district heating
+  - substation
+  - return temperature
+  - hierarchical model
+  - empirical Bayes
+  - fault detection
+references:
+  - type: dataset
+    title: "PreDist dataset - Operational data of district heating substations labelled with faults and maintenance information"
+    version: "2"
+    doi: 10.5281/zenodo.17522254
+    authors:
+      - family-names: Roelofs
+        given-names: Cyriana M. A.
+      - family-names: Guevara Bastidas
+        given-names: Edison
+      - family-names: Hugo
+        given-names: Thomas
+      - family-names: Faulstich
+        given-names: Stefan
+      - family-names: Cadenbach
+        given-names: Anna

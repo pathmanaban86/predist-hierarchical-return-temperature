@@ -1,0 +1,13 @@
+# data and generated files (download the dataset from Zenodo; see data/README.md)
+data/*.zip
+data/predist*/
+work/
+outputs/*
+!outputs/.gitkeep
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
